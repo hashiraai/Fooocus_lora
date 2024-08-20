@@ -1,0 +1,54 @@
+{
+    "default_model": "juggernautXL_v8Rundiffusion.safetensors",
+    "default_refiner": "None",
+    "default_refiner_switch": 0.5,
+    "default_loras": [
+        [
+            true,
+            "SDXL_FILM_PHOTOGRAPHY_STYLE_V1.safetensors",
+            0.25
+        ],
+        [
+            true,
+            "None",
+            1
+        ],
+        [
+            true,
+            "None",
+            1
+        ],
+        [
+            true,
+            "None",
+            1
+        ],
+        [
+            true,
+            "None",
+            1
+        ],
+        [
+            true,
+            "None",
+            1
+        ]
+    ],
+    "default_cfg_scale": 3,
+    "default_sample_sharpness": 2,
+    "default_sampler": "dpmpp_2m_sde_gpu",
+    "default_scheduler": "karras",
+    "default_performance": "Quality",
+    "default_prompt_negative": "unrealistic, saturated, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label, bindi, ear rings, saree,, artificial, red dot on face, indian traditional makeup, fat face, big nose, ordinary, ugly, regular",
+    "default_styles": [
+        "Fooocus V2",
+        "Fooocus Photograph",
+        "Fooocus Negative",
+        "Fooocus Enhance"
+    ],
+    "default_aspect_ratio": "896*1152",
+    "default_clip_skip": 2,
+    "default_vae": "Default (model)",
+    "default_overwrite_step": 60,
+    "default_max_lora_number": 5
+}
